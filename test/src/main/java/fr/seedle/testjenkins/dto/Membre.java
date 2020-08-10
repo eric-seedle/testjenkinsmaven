@@ -1,5 +1,10 @@
 package fr.seedle.testjenkins.dto;
 
+/***
+ * 
+ * @author eric
+ *
+ */
 public class Membre {
 
 	private String nom;
