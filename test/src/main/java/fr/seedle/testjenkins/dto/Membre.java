@@ -7,7 +7,14 @@ package fr.seedle.testjenkins.dto;
  */
 public class Membre {
 
+	/*
+	 * 
+	 */
 	private String nom;
+
+	/*
+	 * 
+	 */
 	private String prenom;
 
 	public String getNom() {
