@@ -17,6 +17,8 @@ public class Membre {
 	 */
 	private String prenom;
 
+	private int age;
+
 	public String getNom() {
 		return nom;
 	}

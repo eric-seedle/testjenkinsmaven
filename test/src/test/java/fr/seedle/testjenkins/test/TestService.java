@@ -10,7 +10,7 @@ public class TestService {
 	@Test
 	public void execute() {
 		Service service = new Service();
-		Membre membre = service.getMembre();
+		final Membre membre = service.getMembre();
 		if (membre.getNom() == null) {
 			throw new RuntimeException("un membre ne peut pas avoir un nom null");
 		}
